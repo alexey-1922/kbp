@@ -1,3 +1,4 @@
+#test
 passwordFile = open('новый 1.txt')
 secretPassword = passwordFile.read()
 print('введите пароль')
