@@ -7,7 +7,7 @@ from operator import itemgetter
 #Вариант залогиниться без токена
 #z = ZabbixAPI('http://ia-zbx-app1.cdu.so/', user='alyabiev-av', password='PASSWORD')
 z = ZabbixAPI('ia-zbx-app1.cdu.so')
-z.login(token='723b8c5cc434870037db443019612181ff71e14de3d58e93391c0f60cc15a664')
+z.login(token='********************************************')
 
 #Получаем требуемую группу хостов
 groups = z.hostgroup.get(output=['itemid','name'])
